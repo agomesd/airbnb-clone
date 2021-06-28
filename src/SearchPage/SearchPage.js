@@ -1,11 +1,8 @@
 import React from "react";
-import "./SearchPage.css";
-
-import SearchResult from "../SearchResult/SearchResult";
-
 import { Button } from "@material-ui/core";
-
+import SearchResult from "../components/SearchResult/SearchResult";
 import img1 from "../assets/images/artyom-kabajev-img1.jpg";
+import "./SearchPage.css";
 
 const SearchPage = () => {
   return (
